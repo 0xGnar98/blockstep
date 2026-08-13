@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="BLOCKSTEP is a 36-beat pixel grid-survival game powered by Bitcoin data through Hemi."
+    />
+    <title>BLOCKSTEP // Every Step Comes Back</title>
+    <link rel="stylesheet" href="/src/pixelGame.css" />
+  </head>
+  <body>
+    <main class="game-page">
+      <section class="game-stage" aria-label="BLOCKSTEP game">
+        <div id="game-frame" class="game-frame" data-ready="false">
+          <canvas
+            id="pixel-game-canvas"
+            width="1680"
+            height="945"
+            tabindex="0"
+            aria-describedby="game-instructions game-status"
+            aria-label="BLOCKSTEP pixel desktop game"
+          ></canvas>
+
+          <div id="game-gate" class="game-gate" aria-live="polite">
+            <strong>BLOCKSTEP</strong>
+            <span>LOADING GAME SYSTEMS</span>
+          </div>
+        </div>
+
+        <p id="game-instructions" class="visually-hidden">
+          Press Enter to start. Move with arrow keys or WASD. Press Space once per run for
+          Hemi Flip. Press H for How to Play, V for verification details after a cleared run,
+          M to mute, R to restart, and F for fullscreen. Bitcoin sets the run, and Hemi
+          independently checks its replay proof.
+        </p>
+        <p id="game-status" class="visually-hidden" aria-live="polite">
+          Loading BLOCKSTEP.
+        </p>
+      </section>
+
+      <section class="game-guide" aria-labelledby="guide-title">
+        <div class="guide-intro">
+          <p class="guide-kicker">PLAYER GUIDE</p>
+          <h1 id="guide-title">Your route becomes the danger.</h1>
+          <p>
+            Survive 36 beats on a 5 × 5 arena. Every step returns four beats later,
+            while one Bitcoin block fixes the pulses, shards, and charged echoes for the run.
+          </p>
+          <a href="#faq">Read the rules and verification FAQ</a>
+        </div>
+
+        <section class="hemi-showcase" aria-labelledby="hemi-showcase-title">
+          <div class="hemi-showcase-intro">
+            <p class="guide-kicker">HOW HEMI POWERS BLOCKSTEP</p>
+            <div>
+              <h2 id="hemi-showcase-title">Bitcoin sets the run.<br />Hemi checks the replay.</h2>
+              <p>
+                BLOCKSTEP turns one Bitcoin block and one 36-beat route into a challenge
+                that the game client cannot rewrite after the fact.
+              </p>
+            </div>
+          </div>
+
+          <ol class="hemi-flow">
+            <li>
+              <span>01 / BITCOIN</span>
+              <h3>One block fixes the board.</h3>
+              <p>A block height and hash set the pulse lines, charged echoes, and shard positions. The same block creates the same challenge.</p>
+            </li>
+            <li>
+              <span>02 / REPLAY</span>
+              <h3>Thirty-six moves become one proof.</h3>
+              <p>Your complete route is packed into a canonical 108-bit replay proof. Playing and creating the proof require no wallet or gas.</p>
+            </li>
+            <li>
+              <span>03 / HEMI</span>
+              <h3>The contract computes the truth.</h3>
+              <p>The Hemi contract reads the same Bitcoin header, replays every move, rebuilds every hazard, and computes the score itself.</p>
+            </li>
+          </ol>
+
+          <div class="hemi-evidence">
+            <div>
+              <span>HEMI MAINNET / CHAIN 43111</span>
+              <strong>Immutable verifier. Exact-match source.</strong>
+            </div>
+            <a href="https://explorer.hemi.xyz/address/0x302449c0dcC71c6ef04820D6c55Cc316fAF15457?tab=contract" target="_blank" rel="noreferrer">
+              View verified contract
+            </a>
+          </div>
+
+          <p class="hemi-status">
+            <strong>NETWORK STATUS</strong>
+            Live score submission is temporarily offline while Hemi repairs a confirmed
+            BitcoinKit header lookup issue. The game remains playable, replay proofs stay
+            local, and unverifiable scores are never written.
+          </p>
+        </section>
+
+        <div id="faq" class="faq-list">
+          <details open>
+            <summary>What is BLOCKSTEP?</summary>
+            <p>BLOCKSTEP is a 36-beat grid-survival game. Every tile Pip enters leaves an echo that detonates exactly four beats later, so the route you create becomes the danger you must survive.</p>
+          </details>
+          <details>
+            <summary>How do I clear a run?</summary>
+            <p>Reach Beat 36 with at least one of your three Lives remaining. A cleared run creates a replay proof and can unlock optional verification when Hemi's Bitcoin header service is available.</p>
+          </details>
+          <details>
+            <summary>When does Pip move?</summary>
+            <p>Choose one direction during each beat. Your queued move commits when the next beat lands. You may also stay on the current tile.</p>
+          </details>
+          <details>
+            <summary>What does the Bitcoin block change?</summary>
+            <p>At the start of an eligible Live Hemi Run, BLOCKSTEP reads confirmed Bitcoin data through Hemi. Its number and hash determine the dangerous pulse rows or columns, shard positions, and charged-echo timing. The same Bitcoin block produces the same challenge.</p>
+          </details>
+          <details>
+            <summary>What is a Bitcoin block pulse?</summary>
+            <p>On marked beats, one complete row or column becomes hazardous. The Block panel and the affected line warn you before the pulse lands.</p>
+          </details>
+          <details>
+            <summary>What is a charged echo?</summary>
+            <p>A normal echo hits its own tile. A charged echo hits its own tile plus the four directly adjacent tiles. Its orange perimeter distinguishes it from a normal echo.</p>
+          </details>
+          <details>
+            <summary>What are shards?</summary>
+            <p>Shards are optional collectibles placed by the Bitcoin-derived challenge. Each collected shard adds 40 points and disappears after its collection window closes.</p>
+          </details>
+          <details>
+            <summary>What is Hemi Flip?</summary>
+            <p>Hemi Flip mirrors Pip to the opposite tile once per run. It can escape a dangerous pattern. Keeping it unused until Run Cleared awards 75 points, but avoiding a hit is worth more.</p>
+          </details>
+          <details>
+            <summary>How is the score calculated?</summary>
+            <p>You earn 10 points per survived beat, 40 per shard, and 15 for a safe close call. Run Cleared adds 200, a zero-hit Clean Run adds 150, and unused Hemi Flip adds 75. Every hit subtracts 100 points.</p>
+          </details>
+          <details>
+            <summary>Do all cleared runs have the same score?</summary>
+            <p>No. Shards, close calls, hits, and Hemi Flip usage change the result. Surviving is the objective; routing cleanly and taking controlled risks creates a higher score.</p>
+          </details>
+          <details>
+            <summary>What is the difference between Beat and Beat Progress?</summary>
+            <p>The top Beat counter shows your exact position in the 36-beat run. The bottom Beat Progress rail shows the complete rhythm timeline and how much of the run is already locked.</p>
+          </details>
+          <details>
+            <summary>Do I need a wallet or ETH to play?</summary>
+            <p>No. Playing, clearing a run, and creating its replay proof are free and require no wallet. A wallet is requested only if you choose to verify a cleared score.</p>
+          </details>
+          <details>
+            <summary>Who pays the verification gas fee?</summary>
+            <p>When verification is available, the player signs a free message and a dedicated developer-funded relayer pays the Hemi network fee for the single transaction.</p>
+          </details>
+          <details>
+            <summary>Why can't I submit my score onchain right now?</summary>
+            <p>Onchain score submission is temporarily offline while Hemi completes a network update. You can still play and clear runs normally, and your replay proof stays local until submission returns.</p>
+          </details>
+          <details>
+            <summary>Is every move sent onchain?</summary>
+            <p>No. The game stays fast by packing the 36 moves locally. After Run Cleared, one optional transaction submits the signed replay for independent verification.</p>
+          </details>
+          <details>
+            <summary>What makes a run verifiable?</summary>
+            <p>The contract does not trust the score shown by the browser. It reads the same Bitcoin block through Hemi, replays all 36 packed moves, rebuilds every hazard and collectible, and records only a valid Run Cleared result.</p>
+          </details>
+          <details>
+            <summary>What is the difference between Offline Practice and a Live Hemi Run?</summary>
+            <p>Offline Practice uses a fixed demo Bitcoin block and never needs a network connection. A Live Hemi Run uses Bitcoin data available through Hemi and can become eligible for optional onchain verification when the verification service is available.</p>
+          </details>
+          <details>
+            <summary>Is BLOCKSTEP pay-to-win or play-to-earn?</summary>
+            <p>No. BLOCKSTEP is free-to-play, has no purchasable gameplay advantage, and does not promise token rewards. Its focus is the arcade challenge and verifiable score.</p>
+          </details>
+          <details>
+            <summary>Can I play BLOCKSTEP on a phone?</summary>
+            <p>BLOCKSTEP is currently optimized for desktop keyboard play. Mobile support is planned for a future update.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/pixelGame.js"></script>
+  </body>
+</html>

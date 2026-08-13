@@ -1,0 +1,897 @@
+{
+  "meta": {
+    "name": "BLOCKSTEP Effects Atlas",
+    "version": 1,
+    "image": "blockstep-effects-atlas.png",
+    "sha256": "B3BC496E2FF7E76CD62B6B26BD210F771CA00599D9F03EDE588FC3774CD2933E",
+    "size": {
+      "w": 1024,
+      "h": 640
+    },
+    "additiveOnly": true,
+    "baseAtlas": {
+      "image": "blockstep-sprite-atlas.png",
+      "sha256": "930ACEBD0FDC8EB88AB84A06576B0FC27EF84301657AA67F059C96D4A9837216",
+      "changed": false
+    },
+    "nearestNeighbor": true
+  },
+  "frames": {
+    "font/blockstep_5x7": {
+      "frame": {
+        "x": 4,
+        "y": 4,
+        "w": 128,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 40
+      },
+      "role": "font_texture"
+    },
+    "pip/victory/v0": {
+      "frame": {
+        "x": 4,
+        "y": 52,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/victory/v1": {
+      "frame": {
+        "x": 104,
+        "y": 52,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/victory/v2": {
+      "frame": {
+        "x": 204,
+        "y": 52,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/victory/v3": {
+      "frame": {
+        "x": 304,
+        "y": 52,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/victory/v4": {
+      "frame": {
+        "x": 404,
+        "y": 52,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/victory/v5": {
+      "frame": {
+        "x": 504,
+        "y": 52,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/defeat/d0": {
+      "frame": {
+        "x": 4,
+        "y": 156,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/defeat/d1": {
+      "frame": {
+        "x": 104,
+        "y": 156,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/defeat/d2": {
+      "frame": {
+        "x": 204,
+        "y": 156,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/defeat/d3": {
+      "frame": {
+        "x": 304,
+        "y": 156,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/defeat/d4": {
+      "frame": {
+        "x": 404,
+        "y": 156,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "pip/defeat/d5": {
+      "frame": {
+        "x": 504,
+        "y": 156,
+        "w": 96,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 100
+      },
+      "role": "result_pose"
+    },
+    "fx/ripple/r0": {
+      "frame": {
+        "x": 4,
+        "y": 260,
+        "w": 192,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 120
+      },
+      "role": "surface_fx"
+    },
+    "fx/ripple/r1": {
+      "frame": {
+        "x": 200,
+        "y": 260,
+        "w": 192,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 120
+      },
+      "role": "surface_fx"
+    },
+    "fx/ripple/r2": {
+      "frame": {
+        "x": 396,
+        "y": 260,
+        "w": 192,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 120
+      },
+      "role": "surface_fx"
+    },
+    "fx/ripple/r3": {
+      "frame": {
+        "x": 592,
+        "y": 260,
+        "w": 192,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 120
+      },
+      "role": "surface_fx"
+    },
+    "fx/debris/d0": {
+      "frame": {
+        "x": 4,
+        "y": 384,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "role": "impact_fx"
+    },
+    "fx/debris/d1": {
+      "frame": {
+        "x": 72,
+        "y": 384,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "role": "impact_fx"
+    },
+    "fx/debris/d2": {
+      "frame": {
+        "x": 140,
+        "y": 384,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "role": "impact_fx"
+    },
+    "fx/debris/d3": {
+      "frame": {
+        "x": 208,
+        "y": 384,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "role": "impact_fx"
+    },
+    "fx/victory/b0": {
+      "frame": {
+        "x": 300,
+        "y": 384,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "role": "result_fx"
+    },
+    "fx/victory/b1": {
+      "frame": {
+        "x": 432,
+        "y": 384,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "role": "result_fx"
+    },
+    "fx/victory/b2": {
+      "frame": {
+        "x": 564,
+        "y": 384,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "role": "result_fx"
+    },
+    "fx/victory/b3": {
+      "frame": {
+        "x": 696,
+        "y": 384,
+        "w": 128,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 128
+      },
+      "role": "result_fx"
+    }
+  },
+  "font": {
+    "name": "BLOCKSTEP 5x7",
+    "version": 1,
+    "texture": "blockstep-effects-atlas.png",
+    "textureSha256": "B3BC496E2FF7E76CD62B6B26BD210F771CA00599D9F03EDE588FC3774CD2933E",
+    "glyphSize": {
+      "w": 5,
+      "h": 7
+    },
+    "advance": 6,
+    "case": "uppercase",
+    "glyphs": {
+      "0": {
+        "x": 81,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "1": {
+        "x": 89,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "2": {
+        "x": 97,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "3": {
+        "x": 105,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "4": {
+        "x": 113,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "5": {
+        "x": 121,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "6": {
+        "x": 1,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "7": {
+        "x": 9,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "8": {
+        "x": 17,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "9": {
+        "x": 25,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "A": {
+        "x": 1,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "B": {
+        "x": 9,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "C": {
+        "x": 17,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "D": {
+        "x": 25,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "E": {
+        "x": 33,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "F": {
+        "x": 41,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "G": {
+        "x": 49,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "H": {
+        "x": 57,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "I": {
+        "x": 65,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "J": {
+        "x": 73,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "K": {
+        "x": 81,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "L": {
+        "x": 89,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "M": {
+        "x": 97,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "N": {
+        "x": 105,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "O": {
+        "x": 113,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "P": {
+        "x": 121,
+        "y": 1,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "Q": {
+        "x": 1,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "R": {
+        "x": 9,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "S": {
+        "x": 17,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "T": {
+        "x": 25,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "U": {
+        "x": 33,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "V": {
+        "x": 41,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "W": {
+        "x": 49,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "X": {
+        "x": 57,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "Y": {
+        "x": 65,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "Z": {
+        "x": 73,
+        "y": 11,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "#": {
+        "x": 33,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "/": {
+        "x": 41,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      ":": {
+        "x": 49,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "-": {
+        "x": 57,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "+": {
+        "x": 65,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "!": {
+        "x": 73,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "?": {
+        "x": 81,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      ".": {
+        "x": 89,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      ",": {
+        "x": 97,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "%": {
+        "x": 105,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "(": {
+        "x": 113,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      ")": {
+        "x": 121,
+        "y": 21,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      },
+      "space": {
+        "x": 1,
+        "y": 31,
+        "w": 5,
+        "h": 7,
+        "advance": 6
+      }
+    },
+    "runtimeScales": {
+      "labels": 2,
+      "hudValues": 3,
+      "menuAndResults": 5
+    },
+    "topBeatCounterPolicy": "Use the dedicated blockstep-beat-counter.png texture for the top Beat counter.",
+    "atlasFrame": "font/blockstep_5x7",
+    "glyphAtlasOrigin": {
+      "x": 4,
+      "y": 4
+    }
+  },
+  "proceduralStates": {
+    "blockPulse": {
+      "source": "Bitcoin block number read from Hemi",
+      "selection": {
+        "row": "blockNumber % 5",
+        "column": "sum(decimalDigits(blockNumber)) % 5",
+        "sample": {
+          "blockNumber": 912845,
+          "row": 0,
+          "column": 4
+        }
+      },
+      "stages": [
+        {
+          "name": "idle",
+          "timeMs": 0
+        },
+        {
+          "name": "acknowledge",
+          "timeMs": 80
+        },
+        {
+          "name": "travel",
+          "timeMs": 160
+        },
+        {
+          "name": "row",
+          "timeMs": 280
+        },
+        {
+          "name": "column",
+          "timeMs": 420
+        },
+        {
+          "name": "settle",
+          "timeMs": 560
+        }
+      ],
+      "construction": "Panel outline and segmented chassis path, then tile energy clipped independently to each exact facePolygon.",
+      "atlasFramesRequired": false
+    },
+    "chargedFootprint": {
+      "base": "existing complete footprint tile frame for the addressed cell",
+      "stages": [
+        {
+          "name": "normal",
+          "timeMs": 0
+        },
+        {
+          "name": "precharge",
+          "timeMs": 80
+        },
+        {
+          "name": "charged",
+          "timeMs": 160
+        },
+        {
+          "name": "impact",
+          "timeMs": 240
+        }
+      ],
+      "construction": "Derive the modifier from that tile's exact facePolygon, clip before compositing, retain the four fingertips and number.",
+      "duplicateTileSetsRequired": false,
+      "floatingDecalAllowed": false
+    }
+  },
+  "runtimeMappings": {
+    "score.value": {
+      "type": "bitmapFont",
+      "font": "BLOCKSTEP 5x7",
+      "scale": 3,
+      "color": "orange"
+    },
+    "block.number": {
+      "type": "bitmapFont",
+      "font": "BLOCKSTEP 5x7",
+      "scale": 3,
+      "prefix": "#",
+      "anchor": [
+        1126,
+        70
+      ]
+    },
+    "block.pulse": {
+      "type": "procedural",
+      "rule": "proceduralStates.blockPulse"
+    },
+    "echo.charged": {
+      "type": "procedural",
+      "rule": "proceduralStates.chargedFootprint"
+    },
+    "result.clear": {
+      "type": "sequence",
+      "frames": [
+        "pip/victory/v0",
+        "pip/victory/v1",
+        "pip/victory/v2",
+        "pip/victory/v3",
+        "pip/victory/v4",
+        "pip/victory/v5"
+      ],
+      "timesMs": [
+        0,
+        80,
+        160,
+        240,
+        360,
+        480
+      ]
+    },
+    "result.defeat": {
+      "type": "sequence",
+      "frames": [
+        "pip/defeat/d0",
+        "pip/defeat/d1",
+        "pip/defeat/d2",
+        "pip/defeat/d3",
+        "pip/defeat/d4",
+        "pip/defeat/d5"
+      ],
+      "timesMs": [
+        0,
+        90,
+        180,
+        300,
+        460,
+        640
+      ]
+    },
+    "echo.place": {
+      "type": "sequence",
+      "frames": [
+        "fx/ripple/r0",
+        "fx/ripple/r1",
+        "fx/ripple/r2",
+        "fx/ripple/r3"
+      ],
+      "timesMs": [
+        0,
+        70,
+        140,
+        230
+      ]
+    },
+    "tile.break": {
+      "type": "sequence",
+      "frames": [
+        "fx/debris/d0",
+        "fx/debris/d1",
+        "fx/debris/d2",
+        "fx/debris/d3"
+      ],
+      "timesMs": [
+        0,
+        60,
+        130,
+        230
+      ]
+    },
+    "result.victoryFx": {
+      "type": "sequence",
+      "frames": [
+        "fx/victory/b0",
+        "fx/victory/b1",
+        "fx/victory/b2",
+        "fx/victory/b3"
+      ],
+      "timesMs": [
+        0,
+        80,
+        160,
+        280
+      ]
+    }
+  },
+  "validation": {
+    "frameCount": 25,
+    "allFramesInsideAtlas": true,
+    "overlapPairs": [],
+    "baseAtlasChanged": false,
+    "sevenDigitBlockWidthPx": 141,
+    "blockHousingSafeWidthPx": 170
+  }
+}

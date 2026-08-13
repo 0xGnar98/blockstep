@@ -1,0 +1,486 @@
+{
+  "meta": {
+    "version": 1,
+    "image": "blockstep-beat-counter.png",
+    "atlasSize": {
+      "w": 504,
+      "h": 132
+    },
+    "frameCount": 36,
+    "anchorPixels": {
+      "x": 1351,
+      "y": 40
+    },
+    "sha256": "A9E7269C45FA9E4D03D8AE7B23F854DA1A7F630E03F46FFF8EC28EADFC3DC7DA"
+  },
+  "frames": {
+    "1": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "1/36"
+    },
+    "2": {
+      "frame": {
+        "x": 84,
+        "y": 0,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "2/36"
+    },
+    "3": {
+      "frame": {
+        "x": 168,
+        "y": 0,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "3/36"
+    },
+    "4": {
+      "frame": {
+        "x": 252,
+        "y": 0,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "4/36"
+    },
+    "5": {
+      "frame": {
+        "x": 336,
+        "y": 0,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "5/36"
+    },
+    "6": {
+      "frame": {
+        "x": 420,
+        "y": 0,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "6/36"
+    },
+    "7": {
+      "frame": {
+        "x": 0,
+        "y": 22,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "7/36"
+    },
+    "8": {
+      "frame": {
+        "x": 84,
+        "y": 22,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "8/36"
+    },
+    "9": {
+      "frame": {
+        "x": 168,
+        "y": 22,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "9/36"
+    },
+    "10": {
+      "frame": {
+        "x": 252,
+        "y": 22,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "10/36"
+    },
+    "11": {
+      "frame": {
+        "x": 336,
+        "y": 22,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "11/36"
+    },
+    "12": {
+      "frame": {
+        "x": 420,
+        "y": 22,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "12/36"
+    },
+    "13": {
+      "frame": {
+        "x": 0,
+        "y": 44,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "13/36"
+    },
+    "14": {
+      "frame": {
+        "x": 84,
+        "y": 44,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "14/36"
+    },
+    "15": {
+      "frame": {
+        "x": 168,
+        "y": 44,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "15/36"
+    },
+    "16": {
+      "frame": {
+        "x": 252,
+        "y": 44,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "16/36"
+    },
+    "17": {
+      "frame": {
+        "x": 336,
+        "y": 44,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "17/36"
+    },
+    "18": {
+      "frame": {
+        "x": 420,
+        "y": 44,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "18/36"
+    },
+    "19": {
+      "frame": {
+        "x": 0,
+        "y": 66,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "19/36"
+    },
+    "20": {
+      "frame": {
+        "x": 84,
+        "y": 66,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "20/36"
+    },
+    "21": {
+      "frame": {
+        "x": 168,
+        "y": 66,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "21/36"
+    },
+    "22": {
+      "frame": {
+        "x": 252,
+        "y": 66,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "22/36"
+    },
+    "23": {
+      "frame": {
+        "x": 336,
+        "y": 66,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "23/36"
+    },
+    "24": {
+      "frame": {
+        "x": 420,
+        "y": 66,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "24/36"
+    },
+    "25": {
+      "frame": {
+        "x": 0,
+        "y": 88,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "25/36"
+    },
+    "26": {
+      "frame": {
+        "x": 84,
+        "y": 88,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "26/36"
+    },
+    "27": {
+      "frame": {
+        "x": 168,
+        "y": 88,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "27/36"
+    },
+    "28": {
+      "frame": {
+        "x": 252,
+        "y": 88,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "28/36"
+    },
+    "29": {
+      "frame": {
+        "x": 336,
+        "y": 88,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "29/36"
+    },
+    "30": {
+      "frame": {
+        "x": 420,
+        "y": 88,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "30/36"
+    },
+    "31": {
+      "frame": {
+        "x": 0,
+        "y": 110,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "31/36"
+    },
+    "32": {
+      "frame": {
+        "x": 84,
+        "y": 110,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "32/36"
+    },
+    "33": {
+      "frame": {
+        "x": 168,
+        "y": 110,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "33/36"
+    },
+    "34": {
+      "frame": {
+        "x": 252,
+        "y": 110,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "34/36"
+    },
+    "35": {
+      "frame": {
+        "x": 336,
+        "y": 110,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "35/36"
+    },
+    "36": {
+      "frame": {
+        "x": 420,
+        "y": 110,
+        "w": 82,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 20
+      },
+      "displayText": "36/36"
+    }
+  }
+}

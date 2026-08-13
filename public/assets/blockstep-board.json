@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "version": 1
+  },
+  "hemiCorrection": {
+    "anchorPixels": {
+      "x": 1547,
+      "y": 819
+    },
+    "changedPixelsOutsideRegion": 0
+  },
+  "hudCorrection": {
+    "changedPixelsOutsideRegion": 0
+  },
+  "output": {
+    "file": "blockstep-board.png",
+    "sha256": "8577B2BCBFF8B22CFD2AFC2D9096504B0EE6623C52CE5370A6AF0A36CB2BDAF2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "blockstep",
+  "version": "1.0.0",
+  "description": "A 36-beat pixel arcade game with Bitcoin-derived challenges verified through Hemi.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "relayer:local": "node scripts/run-local-relayer.mjs",
+    "test": "npm run test:unit && npm run test:integration && npm run test:contract",
+    "test:unit": "node --test tests/game-logic.test.js tests/score-proof.test.js tests/score-rules.test.js tests/replay-parity.test.js",
+    "test:integration": "node --test tests/verification-client.test.js tests/relayer.test.js tests/audio.test.js tests/worker-entry.test.js",
+    "test:contract": "node tests/contract-security.mjs",
+    "test:browser": "node tests/browser-release.mjs",
+    "test:wallet": "node tests/wallet-verification.mjs",
+    "contract:compile": "node scripts/compile-contract.mjs",
+    "contract:verification": "node scripts/build-verification-bundle.mjs"
+  },
+  "dependencies": {
+    "hemi-viem": "^2.8.0",
+    "viem": "^2.55.11"
+  },
+  "devDependencies": {
+    "hardhat": "3.11.1",
+    "playwright": "^1.62.1",
+    "solc": "0.8.30",
+    "vite": "^8.2.1",
+    "wrangler": "^4.122.0"
+  },
+  "overrides": {
+    "adm-zip": "0.6.0",
+    "tmp": "0.2.7"
+  }
+}

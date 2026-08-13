@@ -1,0 +1,12 @@
+node_modules/
+dist/
+artifacts/
+.wrangler/
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.log
+.DS_Store
+Thumbs.db
