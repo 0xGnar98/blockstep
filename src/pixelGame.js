@@ -1943,10 +1943,11 @@ async function syncBitcoinContext() {
   }
   setStatus("Syncing Bitcoin through Hemi Mainnet.");
   try {
-    blockContext = await loadRelayedBitcoinContext();
-    if (!blockContext) {
-      blockContext = { ...(await loadLatestBitcoinContext()), verificationEligible: false };
+    let nextBlockContext = await loadRelayedBitcoinContext();
+    if (!nextBlockContext) {
+      nextBlockContext = { ...(await loadLatestBitcoinContext()), verificationEligible: false };
     }
+    blockContext = nextBlockContext;
   } catch (error) {
     console.warn("Hemi sync unavailable; using deterministic offline practice block.", error);
     blockContext = { ...DEFAULT_BLOCK };
