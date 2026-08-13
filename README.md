@@ -26,7 +26,7 @@ A Bitcoin header supplies a shared challenge. Its height and hash deterministica
 The browser packs all 36 moves into a canonical 108-bit replay proof. The deployed `BlockstepScores` contract independently reads the selected Bitcoin header through Hemi BitcoinKit, reconstructs the challenge, replays every move, and computes the result itself. The browser's displayed score is never accepted as contract input.
 
 ```mermaid
-flowchart LR
+flowchart TB
   A["Bitcoin header"] --> B["Hemi BitcoinKit"]
   B --> C["Shared board challenge"]
   C --> D["36-beat route"]
@@ -34,7 +34,7 @@ flowchart LR
   E --> F["Player EIP-712 signature"]
   F --> G["Sponsored relayer"]
   G --> H["BlockstepScores replays every move"]
-  B --> H
+  B -. "same header" .-> H
   H --> I["Valid cleared score recorded"]
 ```
 

@@ -25,8 +25,24 @@
           ></canvas>
 
           <div id="game-gate" class="game-gate" aria-live="polite">
-            <strong>BLOCKSTEP</strong>
-            <span>LOADING GAME SYSTEMS</span>
+            <div class="game-gate-status">
+              <strong>BLOCKSTEP</strong>
+              <span>LOADING GAME SYSTEMS</span>
+            </div>
+
+            <div class="mobile-gate-content">
+              <p class="mobile-gate-kicker">BLOCKSTEP // MOBILE</p>
+              <h1>MOBILE VERSION<br />UNDER DEVELOPMENT</h1>
+              <p>
+                BLOCKSTEP is currently playable on a desktop or laptop with a physical
+                keyboard. Mobile controls are in development.
+              </p>
+              <span class="mobile-gate-requirement">DESKTOP / LAPTOP &middot; PHYSICAL KEYBOARD REQUIRED</span>
+              <nav class="mobile-gate-links" aria-label="BLOCKSTEP project links">
+                <a href="https://github.com/0xGnar98/blockstep" target="_blank" rel="noreferrer">View source</a>
+                <a href="https://explorer.hemi.xyz/address/0x302449c0dcC71c6ef04820D6c55Cc316fAF15457?tab=contract" target="_blank" rel="noreferrer">Verified contract</a>
+              </nav>
+            </div>
           </div>
         </div>
 
@@ -175,12 +191,12 @@
           </details>
           <details>
             <summary>Can I play BLOCKSTEP on a phone?</summary>
-            <p>BLOCKSTEP is currently optimized for desktop keyboard play. Mobile support is planned for a future update.</p>
+            <p>The mobile version is under development. This release is playable on a desktop or laptop with a physical keyboard; gameplay is disabled on phones until mobile controls are ready.</p>
           </details>
         </div>
       </section>
     </main>
 
-    <script type="module" src="/src/pixelGame.js"></script>
+    <script type="module" src="/src/platformEntry.js"></script>
   </body>
 </html>
